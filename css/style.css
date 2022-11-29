@@ -3,11 +3,19 @@
     float: left;
     font-size: 1 rem;
     padding: 2%;
-    width: 25%;
+    width: 21%;
+    box-sizing: border-box;
+    margin: 40px 1% 0;
 }
 
 .bio-wrapper {
+    background-color: aquamarine;
     font-size: 24px;
+    max-width: 968px;
+    margin:auto;
+    
+    
+    
 }
 
 .bio-wrapper:after {
@@ -17,4 +25,21 @@
     content: " ";
     clear: both;
     height: 0;
+}
+.social-list {
+    list-style: none;
+    padding:0;
+}
+.social-list > li {
+    display: inline-block;
+
+}
+.bio-box > img {
+    width: 170px;
+    height: 200px;
+    margin-bottom:-75px;
+}
+.bio-box > h3 {
+    text-align:center;
+    color: white;
 }

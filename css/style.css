@@ -2,14 +2,14 @@
     border: 1px solid black;
     float: left;
     font-size: 1 rem;
-    padding: 2%;
+    padding: 0 2% 2%;
     width: 21%;
     box-sizing: border-box;
     margin: 40px 1% 0;
 }
 
 .bio-wrapper {
-    background-color: aquamarine;
+    background-color: rgb(192, 238, 222);
     font-size: 24px;
     max-width: 968px;
     margin:auto;
@@ -27,19 +27,41 @@
     height: 0;
 }
 .social-list {
+
     list-style: none;
-    padding:0;
-}
+    padding:150px;
+    text-align:center;
+    background-color: rgb(178, 237, 245);
+    
+}    
 .social-list > li {
     display: inline-block;
+    background-color: rgb(31, 224, 105);
+    width:3.5em;
+    height: 3.5em;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 1.25em;
+    font-size: 1em;
+    line-height: 1em ; 
+   
+   
 
 }
 .bio-box > img {
-    width: 170px;
+    width: 165px;
     height: 200px;
-    margin-bottom:-75px;
+    margin-bottom:-70px;
+   
+    
 }
 .bio-box > h3 {
     text-align:center;
     color: white;
 }
+
+a {
+    text-decoration: none;
+    color:black
+  }
+
